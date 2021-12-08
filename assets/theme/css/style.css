@@ -292,7 +292,7 @@ iframe {
 }
 
 .btn {
-  font-weight: 400;
+  font-weight: 500;
   border-width: 1px;
   font-style: normal;
   margin: 0.6rem 0.6rem;
@@ -326,7 +326,7 @@ iframe {
 }
 
 .btn-lg {
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -874,7 +874,7 @@ body {
   padding: 0.6rem 1.2rem;
   -webkit-transition: border-color 0.25s ease 0s;
   transition: border-color 0.25s ease 0s;
-  border: none !important;
+  border: 1px solid transparent !important;
   border-radius: 4px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
           box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
@@ -1018,21 +1018,17 @@ blockquote {
   opacity: 1;
 }
 
-.dropdown-menu .dropdown-menu {
-  left: 100%;
-}
-
-.dropdown-item + .dropdown-menu {
-  display: none;
-}
-
-.dropdown-item:hover + .dropdown-menu,
-.dropdown-menu:hover {
-  display: block;
+.container {
+  max-width: 1170px;
 }
 
 button {
   background-color: transparent;
   border-color: transparent;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 /*# sourceMappingURL=style.css.map */
